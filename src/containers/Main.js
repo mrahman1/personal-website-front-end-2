@@ -9,7 +9,7 @@ import { Route, Switch, withRouter } from "react-router-dom";
 const Main = props => {
   return (
     <div className = "main">
-      <h1> Mimi Rahman </h1>
+      <h1 id="heading"> Mimi Rahman </h1>
       <Switch>
         <Route exact path="/about" render={ () => <AboutView />} />
         <Route exact path="/contact" render={ ()=> <ContactView/>} />

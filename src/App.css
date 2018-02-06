@@ -1,20 +1,16 @@
-.main {
-  padding-left: 20px;
-  padding-top: 40px;
-  margin-left: 250px;
-}
-
-#navbar{
-  height:100%;
-  padding-right: 20px;
-  margin-right: 20px;
-  position: fixed;
-  padding-top: 20px;
-  padding-left: 20px;
+#about{
+  color: red;
+  font-family: 'Indie Flower', cursive;
 }
 
 #heading{
   text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+#tagline{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
 
 #logo{
@@ -23,10 +19,33 @@
   margin: auto;
 }
 
+.main {
+  padding-left: 20px;
+  padding-top: 40px;
+  float: right;
+  margin-left: 300px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+.navbar{
+  height:100%;
+  padding-right: 20px;
+  margin-right: 20px;
+  position: fixed;
+  padding-top: 20px;
+  padding-left: 20px;
+  background-color: #5F5A5A;
+  float: left;
+  font-family: 'Indie Flower', cursive;
+}
+
+
 .app{
   display: flex;
 }
 
 #project-list{
   display: flex;
+  text-align: center;
 }

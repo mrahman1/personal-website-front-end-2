@@ -4,8 +4,8 @@ import AboutEdit from './AboutEdit'
 
 const AboutView = (props) => {
     return(
-      <div>
-        <p> About </p>
+      <div id="about">
+        <h1 id="tagline"> I am a full stack web developer</h1>
       </div>
     )
   }
