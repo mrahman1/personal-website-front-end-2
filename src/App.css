@@ -1,16 +1,84 @@
 #about{
-  color: red;
-  font-family: 'Indie Flower', cursive;
+  text-align: center;
 }
+
+#about-description{
+  color: #464242;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+#about-tagline{
+  color: #FFFFFF;
+  font-family: 'Khula', sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+  width: 550px;
+}
+
+
+
+.menu-item{
+  font-size: 20px;
+}
+
+#about-item{
+  color: #2F3234;
+}
+
+#about-item:hover{
+  color: #FFFFFF;
+  background-color: #0EBBEE;
+}
+
+#about-item:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#resume-item:hover{
+  color: #FFFFFF;
+  background-color: #FF2861
+}
+
+#resume-item:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#projects-item:hover{
+  color: #FFFFFF;
+  background-color: #2895FF
+}
+
+#projects-item:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#contact-item:hover{
+  color: #FFFFFF;
+  background-color: #48C5A3
+}
+
+#contact-item:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 
 #heading{
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  color: #2E3233;
 }
 
-#tagline{
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
+
+#contact{
+  text-align:center;
 }
 
 #logo{
@@ -23,27 +91,24 @@
   padding-left: 20px;
   padding-top: 40px;
   float: right;
-  margin-left: 300px;
-  margin-right: 200px;
-  text-align: center;
+  margin-left: 220px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #FFC80B;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar{
   height:100%;
   padding-right: 20px;
-  margin-right: 20px;
   position: fixed;
   padding-top: 20px;
   padding-left: 20px;
-  background-color: #5F5A5A;
-  float: left;
-  font-family: 'Indie Flower', cursive;
+  box-shadow: 10px 10px grey !important;
 }
 
-
-.app{
-  display: flex;
-}
 
 #project-list{
   display: flex;

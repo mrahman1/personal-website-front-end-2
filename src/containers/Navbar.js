@@ -1,25 +1,27 @@
 import React from "react";
 import { connect } from "react-redux";
-import { Menu } from 'semantic-ui-react'
+import { Menu, Label } from 'semantic-ui-react'
 import { Link } from "react-router-dom";
 
 const Navbar = props => {
   return (
-        <Menu inverted vertical className="navbar">
+        <Menu vertical className="navbar">
         <img src='https://lh3.googleusercontent.com/ur0mm9gsAAFFIMCkGz7hWJdk5x2LkO_Jwr4AqT7mOy7CUZhSX2zyjjK2fn8bZ7A3oBg=w300' id="logo"/>
 
           <Link to="/about">
-            {" "}
-            <Menu.Item name ="About Me" />
+          <button id="about-item" className="menu-item">
+            ABOUT
+          </button>
           </Link>
+
           <Link to="/resume">
-            <Menu.Item name="Work Experience" />{" "}
+            <Menu.Item id="resume-item" className="menu-item">EXPERIENCE</Menu.Item>
           </Link>
           <Link to="/projects">
-            <Menu.Item name="Projects" />{" "}
+            <Menu.Item id="projects-item" className="menu-item">PROJECTS</Menu.Item>
           </Link>
           <Link to="/contact">
-            <Menu.Item name="Contact" />{" "}
+            <Menu.Item id="contact-item" className="menu-item">CONTACT</Menu.Item>
           </Link>
         </Menu>
   );

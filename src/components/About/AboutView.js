@@ -5,7 +5,9 @@ import AboutEdit from './AboutEdit'
 const AboutView = (props) => {
     return(
       <div id="about">
-        <h1 id="tagline"> I am a full stack web developer</h1>
+        <p id="about-description">HELLO. I AM MIMI RAHMAN,</p>
+        <p id="about-tagline"> A FULL STACK WEB DEVELOPER </p>
+        <p id="about-description"> FROM NYC </p>
       </div>
     )
   }
