@@ -15,12 +15,13 @@ class App extends Component {
 
   render() {
     return (
+      <div id="app">
         <MuiThemeProvider>
-        <div className="app">
           <Navbar />
           <Main />
+          </MuiThemeProvider>
         </div>
-       </MuiThemeProvider>
+
     );
   }
 }
