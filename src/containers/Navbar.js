@@ -9,9 +9,9 @@ const Navbar = props => {
         <img src='https://lh3.googleusercontent.com/ur0mm9gsAAFFIMCkGz7hWJdk5x2LkO_Jwr4AqT7mOy7CUZhSX2zyjjK2fn8bZ7A3oBg=w300' id="logo"/>
 
           <Link to="/about">
-          <button id="about-item" className="menu-item">
+          <Menu.Item id="about-item" className="menu-item">
             ABOUT
-          </button>
+          </Menu.Item>
           </Link>
 
           <Link to="/resume">

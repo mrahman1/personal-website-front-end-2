@@ -10,6 +10,7 @@ const Main = props => {
   return (
     <div className = "main">
       <Switch>
+        <Route exact path="/" render={ () => <AboutView />} />
         <Route exact path="/about" render={ () => <AboutView />} />
         <Route exact path="/contact" render={ ()=> <ContactView/>} />
         <Route exact path="/projects" render={ ()=> <ProjectList/>} />
