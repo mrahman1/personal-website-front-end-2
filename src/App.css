@@ -30,7 +30,7 @@
 }
 
 #about-tagline{
-  color: #FFFFFF;
+  color: black;
   font-family: 'Khula', sans-serif;
   font-size: 70px;
   font-weight: 900;
@@ -135,7 +135,8 @@
 
 .main {
   flex: 0;
-  background-color: #FFC80B;
+  /*background-color: #65717A;*/
+  background-image: url("./images/whirlpool.png");
   border-radius: 5px;
   box-shadow: 4px 2px #916f00 !important;
   height: 100% !important;
@@ -152,6 +153,7 @@
   padding-top: 20px;
   padding-left: 20px;
   box-shadow: 4px 2px #adaa9f!important;
+  background-color: #FFE613 !important;
 }
 
 #project-list{

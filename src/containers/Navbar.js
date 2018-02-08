@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Navbar = props => {
   return (
         <Menu vertical className="navbar">
-        <img src='https://lh3.googleusercontent.com/ur0mm9gsAAFFIMCkGz7hWJdk5x2LkO_Jwr4AqT7mOy7CUZhSX2zyjjK2fn8bZ7A3oBg=w300' id="logo"/>
+        <img src='https://cdn.pixabay.com/photo/2014/04/02/10/45/parking-304464_960_720.png' id="logo"/>
 
           <Link to="/about">
           <Menu.Item id="about-item" className="menu-item">

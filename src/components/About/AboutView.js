@@ -7,7 +7,7 @@ const AboutView = (props) => {
       <div id="about">
         <p id="about-description">HELLO. I AM <b id="about-name">MIMI RAHMAN</b>,</p>
         <p id="about-tagline"> A FULL STACK WEB DEVELOPER </p>
-        <p id="about-description"> FROM NYC </p>
+        <p id="about-description"> BASED IN NYC </p>
       </div>
     )
   }
