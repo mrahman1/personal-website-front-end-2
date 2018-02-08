@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = props => {
   return (
-        <Menu vertical className="navbar">
+        <Menu inverted vertical className="navbar">
         <img src='https://cdn.pixabay.com/photo/2014/04/02/10/45/parking-304464_960_720.png' id="logo"/>
 
           <Link to="/about">

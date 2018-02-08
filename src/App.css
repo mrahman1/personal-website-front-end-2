@@ -44,14 +44,14 @@
   font-size: 20px;
 }
 
-#about-item{
+/*#about-item{
   color: #2F3234;
   border-right: 10px solid #0EBBEE;
   margin-bottom: 15px;
   margin-top: 30px;
-}
+}*/
 
-#about-item:hover{
+/*#about-item:hover{
   color: #FFFFFF;
   background-color: #0EBBEE;
 }
@@ -110,7 +110,7 @@
 #contact-item:active{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
+}*/
 
 
 #heading{
@@ -136,7 +136,7 @@
 .main {
   flex: 0;
   /*background-color: #65717A;*/
-  background-image: url("./images/whirlpool.png");
+  background-image: url("./images/round.png");
   border-radius: 5px;
   box-shadow: 4px 2px #916f00 !important;
   height: 100% !important;
@@ -153,7 +153,6 @@
   padding-top: 20px;
   padding-left: 20px;
   box-shadow: 4px 2px #adaa9f!important;
-  background-color: #FFE613 !important;
 }
 
 #project-list{
