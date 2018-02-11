@@ -8,28 +8,29 @@ import Subheader from "material-ui/Subheader";
 import StarBorder from "material-ui/svg-icons/toggle/star-border";
 
 const ProjectList = props => {
+
+  let fixedList = [
+    { title: "CuddleGram",
+      demo: "https://www.youtube.com/embed/vlcGRJG7a8A",
+      github: "https://github.com/yassimortensen/Cuddlegram",
+      description: "Social media website"
+    },
+    { title: "Trumpet",
+      demo: "https://youtu.be/vlcGRJG7a8A",
+      github: "https://github.com/yassimortensen/Cuddlegram",
+      description: "Social media website"
+    },
+]
+
   const listOfProjects = () => {
-    if (props.user && props.user.projects.length > 0) {
-      return props.user.projects.map((project, index) => (
+      return fixedList.map((project, index) => (
         <ProjectListItem project={project} key={index} />
       ));
-    }
   };
 
-  const styles = {
-    root: {
-      display: "flex",
-      flexWrap: "wrap",
-      justifyContent: "space-around"
-    },
-    gridList: {
-      width: 500,
-      height: 450,
-      overflowY: "auto"
-    }
-  };
 
-  return <div id="project-list">{listOfProjects()}</div>;
+  return <div id="project-list">
+  {listOfProjects()}</div>;
 };
 
 const mapStateToProps = ({ user }) => {

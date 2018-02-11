@@ -8,19 +8,25 @@ import {
   CardText
 } from "material-ui/Card";
 import FlatButton from "material-ui/FlatButton";
+import { Icon } from 'semantic-ui-react'
 
 const ProjectListItem = props => {
-  console.log("IN LIST ITEM!!!!", props);
+
+
   return (
     <Card>
       <CardHeader
-        title={props.project.title}
         actAsExpander={true}
         showExpandableButton={true}
-      />
+        >
+        {props.project.title}
+      </CardHeader>
+      <CardMedia>
+        <iframe width="480" height="270" src={props.project.demo} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </CardMedia>
       <CardActions>
-        <FlatButton label="Action1" />
-        <FlatButton label="Action2" />
+        <Icon name='github'/>
+        <FlatButton label="Demo" />
       </CardActions>
       <CardText expandable={true}>
       {props.project.description}
